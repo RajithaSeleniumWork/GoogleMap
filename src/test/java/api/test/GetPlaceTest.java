@@ -16,12 +16,7 @@ public class GetPlaceTest extends BaseTest {
 
 	    String place_id = (String) context.getAttribute("place_id");
 
-	    System.out.println("GET USING PLACE_ID = " + place_id);
-
-	    // 🔥 safety check
-	    if (place_id == null) {
-	        throw new RuntimeException("place_id is NULL in GetPlaceTest");
-	    }
+	    System.out.println("FINAL PLACE ID = " + place_id);
 
 	    given()
 	            .spec(req)
@@ -29,6 +24,7 @@ public class GetPlaceTest extends BaseTest {
 	    .when()
 	            .get(APIResources.GetPlaceAPI.getResource())
 	    .then()
+	            .log().all()   // 🔥 VERY IMPORTANT
 	            .spec(res)
 	            .statusCode(200);
 	}

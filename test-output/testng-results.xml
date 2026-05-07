@@ -2,46 +2,74 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-07T18:20:44 IST" name="Suite" finished-at="2026-05-07T18:20:55 IST" duration-ms="11166">
+  <suite started-at="2026-05-07T18:36:34 IST" name="Suite" finished-at="2026-05-07T18:36:45 IST" duration-ms="10431">
     <groups>
     </groups>
-    <test started-at="2026-05-07T18:20:44 IST" name="Test" finished-at="2026-05-07T18:20:55 IST" duration-ms="11166">
+    <test started-at="2026-05-07T18:36:34 IST" name="Test" finished-at="2026-05-07T18:36:45 IST" duration-ms="10431">
       <class name="api.test.AddPlaceTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.AddPlaceTest@65fb9ffc]" started-at="2026-05-07T18:20:44 IST" name="setup" finished-at="2026-05-07T18:20:45 IST" duration-ms="517" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.AddPlaceTest@65fb9ffc]" started-at="2026-05-07T18:36:34 IST" name="setup" finished-at="2026-05-07T18:36:35 IST" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addPlace()[pri:0, instance:api.test.AddPlaceTest@65fb9ffc]" started-at="2026-05-07T18:20:45 IST" name="addPlace" finished-at="2026-05-07T18:20:48 IST" duration-ms="3394" status="PASS">
+        <test-method signature="addPlace(org.testng.ITestContext)[pri:0, instance:api.test.AddPlaceTest@65fb9ffc]" started-at="2026-05-07T18:36:35 IST" name="addPlace" finished-at="2026-05-07T18:36:38 IST" duration-ms="3201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9d1b69]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addPlace -->
       </class> <!-- api.test.AddPlaceTest -->
       <class name="api.test.GetPlaceTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.GetPlaceTest@33d512c1]" started-at="2026-05-07T18:20:49 IST" name="setup" finished-at="2026-05-07T18:20:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.GetPlaceTest@33d512c1]" started-at="2026-05-07T18:36:39 IST" name="setup" finished-at="2026-05-07T18:36:39 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getPlace()[pri:0, instance:api.test.GetPlaceTest@33d512c1]" started-at="2026-05-07T18:20:49 IST" name="getPlace" finished-at="2026-05-07T18:20:51 IST" depends-on-methods="api.test.AddPlaceTest.addPlace" duration-ms="2799" status="PASS">
+        <test-method signature="getPlace(org.testng.ITestContext)[pri:0, instance:api.test.GetPlaceTest@33d512c1]" started-at="2026-05-07T18:36:39 IST" name="getPlace" finished-at="2026-05-07T18:36:42 IST" depends-on-methods="api.test.AddPlaceTest.addPlace" duration-ms="2283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9d1b69]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPlace -->
       </class> <!-- api.test.GetPlaceTest -->
       <class name="api.test.UpdatePlaceTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UpdatePlaceTest@397fbdb]" started-at="2026-05-07T18:20:48 IST" name="setup" finished-at="2026-05-07T18:20:48 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UpdatePlaceTest@397fbdb]" started-at="2026-05-07T18:36:38 IST" name="setup" finished-at="2026-05-07T18:36:38 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updatePlace()[pri:0, instance:api.test.UpdatePlaceTest@397fbdb]" started-at="2026-05-07T18:20:48 IST" name="updatePlace" finished-at="2026-05-07T18:20:49 IST" depends-on-methods="api.test.AddPlaceTest.addPlace" duration-ms="436" status="PASS">
+        <test-method signature="updatePlace(org.testng.ITestContext)[pri:0, instance:api.test.UpdatePlaceTest@397fbdb]" started-at="2026-05-07T18:36:38 IST" name="updatePlace" finished-at="2026-05-07T18:36:39 IST" depends-on-methods="api.test.AddPlaceTest.addPlace" duration-ms="1307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9d1b69]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatePlace -->
       </class> <!-- api.test.UpdatePlaceTest -->
       <class name="api.test.DeletePlaceTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.DeletePlaceTest@515c6049]" started-at="2026-05-07T18:20:51 IST" name="setup" finished-at="2026-05-07T18:20:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.DeletePlaceTest@515c6049]" started-at="2026-05-07T18:36:42 IST" name="setup" finished-at="2026-05-07T18:36:42 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="deletePlace()[pri:0, instance:api.test.DeletePlaceTest@515c6049]" started-at="2026-05-07T18:20:51 IST" name="deletePlace" finished-at="2026-05-07T18:20:55 IST" depends-on-methods="api.test.AddPlaceTest.addPlace" duration-ms="3969" status="PASS">
+        <test-method signature="deletePlace(org.testng.ITestContext)[pri:0, instance:api.test.DeletePlaceTest@515c6049]" started-at="2026-05-07T18:36:42 IST" name="deletePlace" finished-at="2026-05-07T18:36:45 IST" depends-on-methods="api.test.AddPlaceTest.addPlace" duration-ms="2938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9d1b69]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePlace -->
